@@ -34,8 +34,6 @@ class CSecondpage(tk.Frame):
     def on_mousewheel(self, event):
         self.canvas.yview_scroll(-1 * int(event.delta / 120), "units")
 
-    # Remaining methods unchanged...
-
 
     def load_data(self):
         try:
